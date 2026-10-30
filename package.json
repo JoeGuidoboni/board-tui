@@ -1,0 +1,33 @@
+{
+  "name": "bun-react-template",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "bun --hot src/index.ts",
+    "build": "bun build ./src/index.html --outdir=dist --sourcemap --target=browser --minify --define:process.env.NODE_ENV='\"production\"' --env='BUN_PUBLIC_*'",
+    "start": "NODE_ENV=production bun src/index.ts",
+    "typecheck": "bun check"
+  },
+  "dependencies": {
+    "@oliveryasuna/ink-frame": "^1.1.0",
+    "fullscreen-ink": "^0.1.0",
+    "ink": "^8.0.0",
+    "ink-big-text": "^2.0.0",
+    "ink-chart": "^0.1.1",
+    "ink-gradient": "^4.0.1",
+    "ink-picture": "^2.1.0",
+    "ink-select-input": "^6.2.0",
+    "ink-text-input": "^6.0.0",
+    "react": "^19.3.1",
+    "react-dom": "^19"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19"
+  },
+  "peerDependencies": {
+    "typescript": "^7"
+  }
+}
