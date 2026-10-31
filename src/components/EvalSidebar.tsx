@@ -1,5 +1,5 @@
 import React from 'react';
-import { render, Text, Box } from 'ink';
+import { Text, Box } from 'ink';
 
 function EvalSidebar() {
   return(<Box
