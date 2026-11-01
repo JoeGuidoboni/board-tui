@@ -5,7 +5,7 @@
     "rook":   { "symbol": "♖", "escape": "\u2656"},
     "bishop":   { "symbol": "♗", "escape": "\u2657"},
     "knight":   { "symbol": "♘", "escape": "\u2658"},
-    "pawn":   { "symbol": "♙", "escape": "\u2659"},
+    "pawn":   { "symbol": "♙", "escape": "\u2659"}
   },
   "black": {
     "king":   { "symbol": "♚", "escape": "\u265A"},
@@ -13,6 +13,7 @@
     "rook":   { "symbol": "♜", "escape": "\u265C"},
     "bishop":   { "symbol": "♝", "escape": "\u265D"},
     "knight":   { "symbol": "♞", "escape": "\u265E"},
-    "pawn":   { "symbol": "♟", "escape": "\u265F"},
-  }
+    "pawn":   { "symbol": "♟", "escape": "\u265F"}
+  },
+  "no_piece": { "symbol": "", "escape": "" }
 }

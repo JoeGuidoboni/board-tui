@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@oliveryasuna/ink-frame": "^1.1.0",
+    "@oliveryasuna/ink-frame-layout": "^1.0.0",
     "fullscreen-ink": "^0.1.0",
     "ink": "^8.0.0",
     "ink-big-text": "^2.0.0",
