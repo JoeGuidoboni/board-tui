@@ -3,7 +3,7 @@ import { render, Text, Box } from 'ink';
 import chessPieces from '../defs';
 import Board from './Board';
 
-function MainPanel() {
+export default function MainPanel() {
   return(<Box
     borderStyle={'round'}
     height={'100%'}
@@ -15,5 +15,3 @@ function MainPanel() {
   </Box>
   );
 }
-
-export default MainPanel;
